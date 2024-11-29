@@ -1,0 +1,43 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.WinnerLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 50vh;
+}
+
+.WinnerLogo img{
+  border-radius: 50%;
+  border: 2px double rgb(255, 255, 255);
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+}
+
+/* .Btn {
+  width: 45%;
+  padding: 8px 0px;
+  border-radius: 20px;
+  background-color: #e6c703;
+  border: none;
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+} */
+
+.title{
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}

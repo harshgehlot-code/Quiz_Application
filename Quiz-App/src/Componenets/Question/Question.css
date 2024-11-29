@@ -1,0 +1,75 @@
+.question {
+    margin-top: 20px;
+    width: 90%;
+  }
+ 
+  .Question {
+    margin-bottom: 15px;
+    color: rgb(34, 33, 33);
+  }
+ 
+  .singleQuestion {
+    border: linear-gradient(to right, green, lightgreen);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+ 
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+ 
+  .ErrorMessage {
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+  }
+ 
+  .singleOption {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: #eafefc;
+    color: rgb(69, 68, 68);
+    text-transform: capitalize;
+    border: 2px solid #00308F;
+    font-weight: 500;
+  }
+ 
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+  }
+ 
+  .Btn {
+    width: 45%;
+    padding: 8px 0px;
+    border-radius: 20px;
+    background-color: #2a52be;
+    border: none;
+    color: white;
+  }
+ 
+  .select {
+    color: rgb(69, 68, 68);
+    box-shadow: 0 0 1px black;
+    border: 2px solid rgb(7, 207, 0);
+    outline: none;
+ 
+  }
+ 
+  .wrong {
+    color: rgb(69, 68, 68);
+    ;
+    box-shadow: 0 0 1px black;
+    border: 2px solid rgb(233, 0, 0);
+    outline: none;
+  }

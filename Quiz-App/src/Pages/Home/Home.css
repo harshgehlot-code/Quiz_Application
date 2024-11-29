@@ -1,0 +1,81 @@
+/* Css Variables */
+:root{
+    --H1 : #2a52be;
+    /* --H1 : #025ae0; */
+  }
+
+.container-fluid{
+    height: 100vh;
+}
+
+.container{
+    height: 93vh;
+    width: 35vw;
+}
+
+.homeHeader{
+    width: 100%;
+    height: 13vh;
+    background-color: var(--H1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.homeSettings{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.parentunderline{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.underline{
+    width: 11.5vw;
+    height: 0.01px;
+    border-radius: 5px;
+    border: 4px solid white;
+}
+
+.homeMain{
+    height: 43vh;
+}
+
+.inputSize, .homebtn{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 400;
+}
+
+.homebtn{
+    background-color:#025ae0;
+    font-weight: 500;
+    color: white;
+}
+
+.banner{
+    width: 45%;
+}
+
+.ErrorMessage{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+}
