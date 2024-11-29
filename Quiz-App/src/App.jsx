@@ -57,7 +57,7 @@ function App() {
     },
     {
       path: "/result",
-      element: <Result />,
+      element: <Result score={score} />,
     },
   ]);
 
